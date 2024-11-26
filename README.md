@@ -1,13 +1,40 @@
-# API-Open-Platform
-总体业务流程：
-![image](https://github.com/user-attachments/assets/6bdf1ed6-e439-4d7f-83ad-7ef7a39a42e3)
-上传题目流程：
-![image](https://github.com/user-attachments/assets/98073947-3a19-4f10-b570-2ccbd757b9b2)
-用户答题流程：
-![image](https://github.com/user-attachments/assets/70546842-7e52-4e69-b03c-6cb0602e41fb)
-AI创建题目流程：
-![image](https://github.com/user-attachments/assets/b1e79a7f-88e1-469d-a74d-d254cf044940)
-AI总结流程：
-![image](https://github.com/user-attachments/assets/3b46d27a-9f71-4344-87e8-193a9a126350)
-总体时序图：
-![image](https://github.com/user-attachments/assets/f9c24c92-348b-4e69-a694-ef7cb81b917e)
+# API开放调用平台
+
+> 作者：wudangbuluzhenren
+
+
+## 项目简介
+
+提供 API 接口供开发者调用的平台。
+
+管理员可以接入并发布接口，统计分析各接口调用情况；用户可以注册登录并开通接口调用权限，然后可以浏览接口及在线调试，还能使用客户端 SDK 轻松在代码中调用接口。
+
+项目的前端并不复杂，更侧重后端，包含丰富的编程技巧和架构设计层面的知识。
+
+
+
+## 技术选型
+
+### 前端
+
+- React 18
+- Ant Design Pro 5.x 脚手架
+- Ant Design & Procomponents 组件库
+- Umi 4 前端框架
+- OpenAPI 前端代码生成
+
+
+
+### 后端
+
+- Java Spring Boot
+- MySQL 数据库
+- MyBatis-Plus 及 MyBatis X 自动生成
+- API 签名认证（Http 调用）
+- Spring Boot Starter（SDK 开发）
+- Dubbo 分布式（RPC、Nacos）
+- Swagger + Knife4j 接口文档生成
+- Spring Cloud Gateway 微服务网关
+- Hutool、Apache Common Utils、Gson 等工具库
+
+
